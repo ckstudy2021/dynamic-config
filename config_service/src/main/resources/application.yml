@@ -1,0 +1,20 @@
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  data:
+    mongodb:
+      enabled: false
+      host: mongodb://host:27017
+      database: db
+      user: user
+      password: password
+    redis:
+      enabled: false
+      host: redis://host:27017
+      user: user
+      password: password
+      node_type: single
+  pub_sub:
+    kafka:
+      enabled: false
+      bootstrap_address: kafka://host:2181
